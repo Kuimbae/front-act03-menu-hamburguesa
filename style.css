@@ -36,6 +36,7 @@ nav a {
     border: 1px solid black;
     border-radius: 8px;
     display: block;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 nav a:hover {
@@ -69,21 +70,28 @@ nav a:hover {
 
 header {
     background-color: rgb(206, 206, 206);
-    padding: 16px;
-    height: 300px
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
 }
 
 main {
     background-color: blueviolet;
-    padding: 16px;
+    border: 1px solid black;
     height: 400px;
     width: 100%;
     max-width: 1440px;
-    margin: auto;
+    box-sizing: border-box;
+    margin:auto;
 }
 
 footer {
    background-color: blanchedalmond;
+   border: 1px solid black;
+   width: 100%;
+    box-sizing: border-box;
 }
 
 small {
